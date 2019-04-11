@@ -1,0 +1,17 @@
+<% include ./partials/header.ejs %>
+<style>
+  .center_div{
+    margin: 25px auto;
+    width:30% ;
+    font-size:25px;
+  }
+</style>
+<div class="center_div">
+<form action="/signup" method="POST">
+   <input type="text" name="username" placeholder="username">
+   <input type="password" name="password" placeholder="password">
+   <br>
+   <button>SignUp</button>
+ </form>  
+ </div>
+ <% include ./partials/footer.ejs %>
